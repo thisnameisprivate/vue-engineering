@@ -4,7 +4,7 @@ import Home from './views/Home.vue';
 import Info from './views/Info.vue';
 import Vuex from './views/Vuex.vue';
 import StoreState from './views/StoreState.vue';
-
+import Dome1 from './views/Dome1.vue';
 
 Vue.use(Router);
 
@@ -28,6 +28,11 @@ export default new Router({
           path: '/StoreState',
           name: 'StoreState',
           component: StoreState,
+      },
+      {
+          path: '/Dome1',
+          name: 'Dome1',
+          component: Dome1
       },
     {
       path: '/about',

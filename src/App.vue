@@ -5,7 +5,8 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/info">Info</router-link> |
       <router-link to="/Vuex">Vuex</router-link> |
-      <router-link to="/StoreState">StoreState</router-link>
+      <router-link to="/StoreState">StoreState</router-link> |
+      <router-link to="/Dome1">Dome1</router-link>
     </div>
     <router-view/>
   </div>
